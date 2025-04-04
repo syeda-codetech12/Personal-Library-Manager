@@ -11,20 +11,6 @@ A Streamlit-based application to manage your personal book collection.
 - Visual statistics and insights
 - Data persistence using JSON storage
 
-## Setup Instructions
-
-1. Make sure you have Python 3.7+ installed on your system.
-
-2. Install the required dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Run the application:
-```bash
-streamlit run app.py
-```
-
 ## Usage
 
 1. **Adding Books**:
@@ -47,6 +33,3 @@ streamlit run app.py
    - Search by title, author, or genre
    - Results update in real-time as you type
 
-## Data Storage
-
-The application stores your library data in a `library.json` file in the same directory. This ensures your data persists between sessions. 
