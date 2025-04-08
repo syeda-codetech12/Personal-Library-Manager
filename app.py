@@ -74,7 +74,7 @@ with tab1:
                 st.write(f"**{book['title']}** by {book['author']}")
                 st.write(f"Genre: {book['genre']} | Status: {book['status']} | Rating: {'⭐' * book['rating']}")
             with col2:
-                if st.button("Edit", key=f"edit_{idx}"):
+                if st.button("🖋️", key=f"edit_{idx}"):
                     st.session_state.editing_index = idx
             with col3:
                 if st.button("🗑️", key=f"delete_{idx}"):
