@@ -77,7 +77,7 @@ with tab1:
                 if st.button("Edit", key=f"edit_{idx}"):
                     st.session_state.editing_index = idx
             with col3:
-                if st.button("Delete", key=f"delete_{idx}"):
+                if st.button("🗑️", key=f"delete_{idx}"):
                     st.session_state.library.pop(idx)
                     save_library()
                     st.rerun()
